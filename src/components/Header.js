@@ -12,7 +12,7 @@ const Header = () => {
                 {/* <Container> */}
                 <LinkContainer to='/'>
                         <Nav.Link >
-                        <img src="/images/sachiko-icon-gold.png" alt="icon" className="icon" />
+                        <img src="/images/name-logo.png" alt="icon" className="icon" />
                         </Nav.Link>
                     </LinkContainer>
                     {/* <LinkContainer to='/'>

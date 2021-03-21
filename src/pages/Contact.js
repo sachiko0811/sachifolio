@@ -1,10 +1,13 @@
 import React from 'react'
+// import { Header } from "./Header";
+// import { CardList } from "./works/CardList";
+
+// import "./styles.css";
 
 const Contact = () => {
     return (
         <div>
-            contact
-        </div>
+    </div>
     )
 }
 
