@@ -1,20 +1,24 @@
 import React from 'react'
-import { Card, Button, CardGroup } from 'react-bootstrap'
+import { Card, Button, CardGroup, Container } from 'react-bootstrap'
 // import { img } from './works-img/cricket.png'
 
 const Works = () => {
+
     return (
-        <>
+        <Container>
         <CardGroup className="card-group">
             <Card style={{ width: '18rem' }} className="card">
-                <Card.Img variant="top" alt="photo" />
+                <Card.Img src="./works-img/cricket.png" variant="top" alt="photo" />
                 <Card.Body>
                     <Card.Title>React</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
                     </Card.Text>
-                    <Button variant="primary">WEBSITE</Button>
+                    <Button 
+                    variant="primary"
+                    // onClick={goWebsite}
+                    >WEBSITE</Button>
                 </Card.Body>
             </Card>
 
@@ -43,7 +47,7 @@ const Works = () => {
             </Card>
 
             </CardGroup>
-        </>
+        </Container>
     )
 }
 

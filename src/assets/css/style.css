@@ -1,8 +1,6 @@
 html,
 body,
 #root {
-  width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -32,10 +30,10 @@ br {
 }
 
 .home {
-  background: url(/src/works-img/cricket.png);
-  height: 100%;
+  background-image: url(/src/works-img/flower.jpg);
+  height: 100vh;
   width: 100%;
-  background-repeat: auto;
+  background-size: cover;
 }
 
 .card-group {
@@ -79,6 +77,10 @@ br {
   font-size: 25em;
   will-change: transform, opacity;
   text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+}
+
+.center {
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

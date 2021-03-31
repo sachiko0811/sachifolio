@@ -9,11 +9,12 @@ import {
     FaGitAlt,
     FaAdobe
  } from 'react-icons/fa';
-// import { Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 
 const Skills = () => {
     return (
-        <div className="skills-all">
+        <Container>
+        <div className="skills-all center">
             <FaReact className="skill-icon"/>
             <FaSass className="skill-icon"/>
             <FaHtml5 className="skill-icon"/>
@@ -23,6 +24,7 @@ const Skills = () => {
             <FaGitAlt className="skill-icon"/>
             <FaAdobe className="skill-icon"/>
         </div>
+        </Container>
     )
 }
 
