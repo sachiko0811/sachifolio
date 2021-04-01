@@ -8,9 +8,9 @@ const Works = () => {
         <Container>
         <CardGroup className="card-group">
             <Card style={{ width: '18rem' }} className="card">
-                <Card.Img src="public/images/memoApp.png" variant="top" alt="photo" />
+                <Card.Img src="public/images/memoApp.png" variant="top" alt="memoApp" />
                 <Card.Body>
-                    <Card.Title>React</Card.Title>
+                    <Card.Title>Memo App</Card.Title>
                     <Card.Text>
                     Some quick example text to build on the card title and make up the bulk of
                     the card's content.
